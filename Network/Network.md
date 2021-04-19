@@ -59,10 +59,12 @@ L1 Network Layer
 - MAC(Media Access Control)이 해당 영역임.
 ```
 
-5. HTTP와 HTTPS의 차이점
+5. 공개키와 암호키
 
-6. HTTP 리퀘스트에는 어떤 메소드들이 존재하는가? 그 특징은?
+6. HTTP와 HTTPS의 차이점
 
-7. Restful API의 특징
+7. HTTP 리퀘스트에는 어떤 메소드들이 존재하는가? 그 특징은?
 
-8. 
+8. Restful API의 특징
+
+9. 
