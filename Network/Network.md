@@ -35,6 +35,7 @@ L1 Physical Layer
 - 또한 연결 해제에는 4-handshake라는 4단계를 거치는데 아래와 같다.
     1. client -> server : fin
     2. server -> client : ack
+    (서버에서 종료 대기)
     3. server -> client : fin
     4. client -> server : ack
 ```
@@ -130,4 +131,4 @@ L1 Network Layer
     - Non blocking IO로 처리한다는 것은, 블로킹과 반대로 IO의 응답을 기다리지 않겠다는 의미다. 
     - 비동기로 처리할 경우, 요청을 보낸 후에 거듭 여러번 커널에게 해당 작업이 끝났는지를 물어보아야 한다. 만약 준비되었지 않을 시, 결과 메세지(EWOULDBLOCK)를 반환한다.
     - 여기서 여러번 커널을 호출해야하기 때문에 자원 낭비가 아예 없다고 볼 순 없지만, 비동기 방식처럼 모든 작업이 중단되는 것보다는 이득이다.
-    
+
