@@ -48,16 +48,16 @@
 
 4. 각 계층별로 설명하시오
 
-L4 Application Layer
-- 직접적으로 사용자와 맞닿은 영역. 
-- 사용자 응용프로그램 인터페이스를 의미함
-L3 Transport Layer
-- 어떤 port를 이용할 것인지, 어떤 방식(TCP, UDP)을 사용할 것인지를 결정하는 영역
-L2 Internet Layer
-- 어떤 주소(IP)로 통할 것인지를 결정하는 영역
-L1 Network Layer
-- 물리적으로 데이터가 네트워크를 통해 어떻게 전송되는지를 결정하는 영역
-- MAC(Media Access Control)이 해당 영역임.
+- L4 Application Layer
+    - 직접적으로 사용자와 맞닿은 영역. 
+    - 사용자 응용프로그램 인터페이스를 의미함
+- L3 Transport Layer
+    - 어떤 port를 이용할 것인지, 어떤 방식(TCP, UDP)을 사용할 것인지를 결정하는 영역
+- L2 Internet Layer
+    - 어떤 주소(IP)로 통할 것인지를 결정하는 영역
+- L1 Network Layer
+    - 물리적으로 데이터가 네트워크를 통해 어떻게 전송되는지를 결정하는 영역
+    - MAC(Media Access Control)이 해당 영역임.
 
 
 5. 공개키와 대칭키란 무엇인가?
