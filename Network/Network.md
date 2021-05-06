@@ -5,20 +5,20 @@
 - OSI : Open Systems Interconnection
 - 통신에 필요한 동작을 7단계로 나누어 구분한 것이다.
 
-L7 Application Layer
-- 사용자가 직접 데이터를 작성하는 부분
-L6 Presentation Layer
-- 해당 데이터를 가공하는 영역
-L5 Session Layer
-- 어떤 방식으로 통신하는 지를 결정하는 영역(단방향, 양방향, 일문답)
-L4 Transport Layer
-- 목적지가 어디인지(PORT) 어떤방식으로 보낼지 결정하는 영역
-L3 Network Layer
-- 어떤 경로를 거칠지, 어떤 주소(ip)를 갖는지?
-L2 DataLink Layer
-- MAC(Media Access Control)을 찾는 영역
-L1 Physical Layer
-- 전기신호에 관한 영역
+- L7 Application Layer
+    - 사용자가 직접 데이터를 작성하는 부분
+- L6 Presentation Layer
+    - 해당 데이터를 가공하는 영역
+- L5 Session Layer
+    - 어떤 방식으로 통신하는 지를 결정하는 영역(단방향, 양방향, 일문답)
+- L4 Transport Layer
+    - 목적지가 어디인지(PORT) 어떤방식으로 보낼지 결정하는 영역
+- L3 Network Layer
+    - 어떤 경로를 거칠지, 어떤 주소(ip)를 갖는지?
+- L2 DataLink Layer
+    - MAC(Media Access Control)을 찾는 영역
+- L1 Physical Layer
+    - 전기신호에 관한 영역
 
 
 2. TCP / IP 에 대해 설명하시오.
