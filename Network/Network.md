@@ -41,10 +41,10 @@
 
 3. TCP / IP 4계층에 대해 설명하시오
 
-L4 Application Layer
-L3 Transport Layer
-L2 Internet Layer
-L1 Network Layer
+- L4 Application Layer
+- L3 Transport Layer
+- L2 Internet Layer
+- L1 Network Layer
 
 4. 각 계층별로 설명하시오
 
