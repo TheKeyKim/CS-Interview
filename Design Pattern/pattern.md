@@ -29,7 +29,23 @@
 
 4. 싱글턴 패턴(Singleton)
 - 분류 : 생성 패턴
--
+- 객체를 생성할 때, 전역변수를 사용치 않고, 객체를 **단 하나**만을 만들되, 어디에서든 참조할 수 있도록 생성하는 패턴
+- 예시
+```java
+public class Screen{
+    private static Screen screen = null;
+    private Screen(){}
+    // 생성자 접근을 제한함.
+    // 단 하나의 객체 생성만을 허용함.
+    public static Screen getScreen(){
+        if(screnn == null) screen = new Screen();
+        return screen;
+    }
+    public void render(Picture p){
+        // rendering method
+    }
+}
+```
 
 5. 어댑터 패턴(Adapter)
 - 분류 : 구조 패턴
