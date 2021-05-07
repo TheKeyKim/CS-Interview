@@ -20,3 +20,47 @@
     - 인터페이스를 작은 단위로 구체적이게 분리시켜야 한다.
 - **D**ependency Inversion Property
     - 상위 모듈이 하위 모듈에 의존하면 안됨.
+
+3. 분류 
+- 생성 패턴(Creational) : 객체의 생성 방식(인스턴스를 만드는 절차)
+- 구조 패턴(Structural) : 객체간의 관계를 조직
+    - 서로 독립적으로 개발한 인터페이스 혹은 객체를 묶어 단일의 것으로 만들 때 새로운 기능을 제공하는 패턴
+- 행위 패턴(Behavioral) : 객체의 행위를 조직
+
+4. 싱글턴 패턴(Singleton)
+- 분류 : 생성 패턴
+-
+
+5. 어댑터 패턴(Adapter)
+- 분류 : 구조 패턴
+- 클래스의 호환 혹은 함수명과 같은 문제로 바로 사용하거나 대체할 수 없는 경우가 있음.
+- 만약 같은 역할을 하는 함수를 직접 매핑할 수 있다면, 사이의 변환 클래스를 둠으로써 클라이언트 그대로 활용 가능.
+- Cat클래스를 인터페이스로 사용하며, 이를 사용하기 위한 Tiger클래스의 어댑터를 만듬. 이를 통해 Cat 클래스의 함수를 이용하여 같은 역할을 수행하는 Tiger 클래스를 이용할 수 있음.
+```java
+public interface Cat{
+    public void crying();
+    public void run();
+}
+public class Tiger  {
+    public void growl(){
+        System.out.println("어흥");
+    }
+    public void tiger_run(){
+        System.out.println("호랑이의 뜀걸음");
+    }
+}
+public class TigerAdapter implements Cat{
+    Tiger tiger;
+    public TigerAdapter(Tiger tiger){
+        this.tiger = tiger;
+    }
+    @Override
+    public void crying(){
+        tiger.growl();
+    }
+    @Override
+    public void run(){
+        tiger.tiger_run();
+    }
+}
+```
