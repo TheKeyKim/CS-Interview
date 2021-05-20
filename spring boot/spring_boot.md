@@ -9,3 +9,4 @@
 
 2. dto란?
 - 데이터 전송 객체 - data transfer object
+- getter와 setter기능을 함(로직을 갖지 않고 있지 않는 순수한 데이터 객체)
