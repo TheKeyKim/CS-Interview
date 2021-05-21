@@ -13,5 +13,5 @@ CS지식의 정리를 위한 공간입니다.
 ~~[5. 객체지향]()~~<br> 
 
 6.스프링 부트
-- [Spring boot 용어]()
-- [Spring boot 코드]()
+- [Spring boot 용어](https://github.com/TheKeyKim/CS-Interview/blob/master/spring%20boot/%EC%9A%A9%EC%96%B4.md)
+- [Spring boot 코드](https://github.com/TheKeyKim/CS-Interview/blob/master/spring%20boot/%EC%BD%94%EB%93%9C.md)
